@@ -1,0 +1,159 @@
+body{
+    background-color: #A1D6B2;
+}
+/* navbar */
+.navigation-bar-iteam{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color: #00712D ;
+   
+   
+
+}
+.hm-burger-menu{
+    color: white;
+    border-color: #ffffff;
+}
+.brand-name{
+   
+        font-family: "Sacramento";
+        font-weight:bold ;
+        font-size: 3rem;
+        color:#ffffff;
+        margin-bottom: 1rem;
+      
+}
+.dropdown-text{
+    color: #ffffff;
+}
+
+.cart-icon{
+    height: 2rem;
+    color: black;
+}
+.log-text{
+    margin-left: 0.8rem;
+}
+ 
+.cart-information{
+    width: 4rem;
+    height: 2.8rem;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+   
+}
+.card-container{
+    margin-top: 2.5rem;
+    
+}
+.cart-information:hover{
+    border-style: solid;
+    border-width: 0.8px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 8px;
+  
+   
+}
+.shopping-quantity{
+   position: absolute;
+   top: 0.2px;
+   margin-left: 1.5rem;
+   margin-bottom: 0.5rem;
+}
+
+.input-search{
+    margin-right: 0.5rem;
+}
+i{ 
+    margin-top: 0.3rem;
+}
+.cart-logo{
+   background-attachment: fixed; color: black;
+    height: 2rem;
+    text-align: center;
+
+}
+.login,.logout{
+    margin-left:0.8rem;
+}
+
+/* introduction */
+#introduction{
+    background-color: rgba(255, 255, 255, 0.671);
+    padding: 4% 6%;
+    margin-top: 2rem;
+    
+}
+.shop-button{
+width: 100%;
+}
+
+/* coursel */
+#catagories-carousel{
+    background-color: #00712D;
+}
+.carousel-item{
+    padding: 7% 10%;
+    background-color: rgb(217, 220, 223);
+
+}
+.corsel-image{
+    height: 10rem;
+    border-radius: 100%;
+}
+.card{
+    text-align: center;
+}
+
+/* footer */
+
+#footer{
+    background-color: #00712D;
+    color: white;
+    padding: 7% 10%;
+}
+
+/* media-qeries */
+
+
+
+
+/* card-style */
+
+.card-image{
+  height: 9rem;
+  width: 9rem;
+  
+}
+.card-grid{
+    margin-top: 1.4rem;
+    text-align: center;
+   
+ 
+    
+}
+
+.extramargin{
+    margin-top: 500px;
+ }
+
+/* media query codes - mobile and tablet  */
+@media(max-width:900px) {
+     .collapse-center{
+        text-align: center;
+     }
+     
+     .card-container{
+        margin-top: 12rem;
+        
+    }
+}
